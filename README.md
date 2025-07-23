@@ -18,9 +18,7 @@ Please visit [our home page](https://github.com/Analytic-Concept-Group/DigitalGe
 
 Using a carefully designed digital gene annotation system with program templates, objects in the physical world can be converted to a fully-parameterized representation with minor effort.
 
-<video id="video-1" controls="">
-    <source id="mp4" src="assets/videos/digital-gene-annotation.mp4" type="video/mp4">
-</video>
+https://github.com/sii-research/DigitalGene/blob/main/assets/videos/digital-gene-annotation.mp4
 
 <!-- ### Procedual Generation of Novel Objects -->
 ### Procedural Generation of Novel and Diverse Objects
