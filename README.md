@@ -2,72 +2,84 @@
 
 ## 🏛️ About DigitalGene
 
-/*Introduction for DigitalGene*/
+We present Digital Gene, a novel, universal object description protocal that facilitates learning of embodied systems in numerous aspects, including
 
-**Our homepage**: [https://github.com/Analytic-Concept-Group/DigitalGene](https://github.com/Analytic-Concept-Group/DigitalGene)
+- Fully-parameterized object representation
+- Procedural generation of novel and diverse objects
+- Automated object function analysis and manipulation manual
+<!-- - Procedual generation of novel objects.  -->
+<!-- - Automated annotation for various types of knowledge -->
 
----
+Please visit [our home page](https://github.com/Analytic-Concept-Group/DigitalGene) for more information.
 
-## 🔧 Setup & Dependencies
+## 🚀 Highlights
 
-> Python 3.8+ is recommended.
+### Fully-parameterized Object Representation
 
-Install dependencies via pip:
+Using a carefully designed digital gene annotation system with program templates, objects in the physical world can be converted to a fully-parameterized representation with minor effort.
 
-```bash
-pip install -r requirements.txt
-```
+<video id="video-1" controls="">
+    <source id="mp4" src="assets/videos/digital-gene-annotation.mp4" type="video/mp4">
+</video>
 
----
+<!-- ### Procedual Generation of Novel Objects -->
+### Procedural Generation of Novel and Diverse Objects
 
-## 🚀 Usage
+By sampling parameters that adheres to physical constraints as well as common sense, countless new objects can be procedurally generated using templates.
 
-### 1. Standard Concept Template Library (STLC)
+<p align="center">
+<img src="assets\images\Window1.gif" width="15%"/>
+<img src="assets\images\Window2.gif" width="15%"/>
+<img src="assets\images\USB1.gif" width="15%"/>
+<img src="assets\images\USB2.gif" width="15%"/>
+<img src="assets\images\Eyeglasses1.gif" width="15%"/>
+<img src="assets\images\Eyeglasses2.gif" width="15%"/>
+</p>
+<p align="center">
+<img src="assets\images\Faucet1.gif" width="15%"/>
+<img src="assets\images\Faucet2.gif" width="15%"/>
+<img src="assets\images\globe1.gif" width="15%"/>
+<img src="assets\images\globe2.gif" width="15%"/>
+<img src="assets\images\kettle1.gif" width="15%"/>
+<img src="assets\images\kettle2.gif" width="15%"/>
+</p>
+<p align="center">
+<img src="assets\images\KitchenPot1.gif" width="15%"/>
+<img src="assets\images\KitchenPot2.gif" width="15%"/>
+<img src="assets\images\Microwave1.gif" width="15%"/>
+<img src="assets\images\Microwave2.gif" width="15%"/>
+<img src="assets\images\bucket1.gif" width="15%"/>
+<img src="assets\images\bucket2.gif" width="15%"/>
+</p>
+<p align="center">
+<img src="assets\images\StorageFurniture1.gif" width="15%"/>
+<img src="assets\images\StorageFurniture2.gif" width="15%"/>
+<img src="assets\images\Table1.gif" width="15%"/>
+<img src="assets\images\Table2.gif" width="15%"/>
+<img src="assets\images\Refrigerator1.gif" width="15%"/>
+<img src="assets\images\Refrigerator2.gif" width="15%"/>
+</p>
 
-For each object category, download the corresponding conceptualization result file from this folder:
+<!-- ### Automated annotation for various types of knowledge -->
+### Automated Object Function Analysis and Manipulation Manual
 
-📎 [STLC Conceptualizations on Google Drive](https://drive.google.com/drive/folders/18fTrisH-9psUWRe8zdt4dPAyv1K4twxz)
+Digital gene also supports parameterized defintion of knowledge, including segmentation, 6D pose as well as affordances. In a comprehensive way, these knowledge lays the foundation of interpretable and controllable object manipulation.
 
-**Steps:**
+<video id="Mug-segmentation" controls="" width="18%"> <source id="mp4" src="assets/videos/Mug-segmentation.mp4" type="video/mp4"> </video>
+<video id="Mug-open_lid" controls="" width="18%"> <source id="mp4" src="assets/videos/Mug-open_lid.mp4" type="video/mp4"> </video>
+<video id="Mug-containment" controls="" width="18%"> <source id="mp4" src="assets/videos/Mug-containment.mp4" type="video/mp4"> </video>
+<video id="Mug-joint_pose" controls="" width="18%"> <source id="mp4" src="assets/videos/Mug-joint_pose.mp4" type="video/mp4"> </video>
+<video id="Mug-grasp" controls="" width="18%"> <source id="mp4" src="assets/videos/Mug-grasp.mp4" type="video/mp4"> </video>
+</p>
+<video id="knwoledge-video-1" controls="" width="30%"> <source id="mp4" src="assets/videos/knowledge-1.mp4" type="video/mp4"> </video>
+<video id="knwoledge-video-2" controls="" width="30%"> <source id="mp4" src="assets/videos/knowledge-2.mp4" type="video/mp4"> </video>
+<video id="knwoledge-video-3" controls="" width="30%"> <source id="mp4" src="assets/videos/knowledge-3.mp4" type="video/mp4"> </video>
+</p>
 
-1. Download the file named `{CATEGORY_NAME}_conceptualization.pkl`
-2. Rename it to `{CATEGORY_NAME}.pkl`
-3. Move it to: `assets/conceptualizations/stlc/`
-4. [Optional] If you want to visualize both the actual object and the conceptualization results simultaneously, you can download the data from the corresponding dataset (the data IDs match one-to-one with the original dataset). Then, place the downloaded OBJ files in the folder `assets/object_models/{CATEGORY_NAME}`.
+## 💰 Cost Analysis
 
-Then run:
+While versatile, objects with annotation knowledge scales at a negligible cost with digital gene, with properly designed templates and knowledge. Both generation and annotation are achieved with a click of a button. 
 
-```bash
-cd Digital-Gene-Toolkit
-python stlc_visualize.py --category {CATEGORY_NAME}
-```
-
----
-
-### 2. Procedural Generation (PROG)
-
-You can procedurally generate new conceptualizations and visualize them by running:
-
-```bash
-cd Digital-Gene-Toolkit
-python prog_visualize.py --category {CATEGORY_NAME} --gen_num {GEN_NUM}
-```
-
-- `{CATEGORY_NAME}`: object category nam
-- `{GEN_NUM}`: number of generated samples
-
-The output will be saved as:
-`assets/conceptualizations/prog/{CATEGORY_NAME}.pkl`
-
----
-
-### 3. Digital Gene Knowledge
-
-This module generates knowledge visualizations based on procedurally generated data.
-
-Ensure that the corresponding `{CATEGORY_NAME}.pkl` file already exists in `assets/conceptualizations/prog/`, and then run:
-
-```bash
-cd Digital-Gene-Toolkit
-python knowledge_visualize.py --category {CATEGORY_NAME}
-```
+<p align="center">
+<img src="assets\images\cost-analysis.png" width="100%"/>
+</p>
