@@ -65,10 +65,10 @@ By sampling parameters that adheres to physical constraints as well as common se
 
 Digital gene also supports parameterized defintion of knowledge, including segmentation, 6D pose as well as affordances. In a comprehensive way, these knowledge lays the foundation of interpretable and controllable object manipulation.
 
-<video id="Mug-segmentation" controls="" width="18%"> <source id="mp4" src="assets/videos/Mug-segmentation.mp4" type="video/mp4"> </video>
+<video id="Mug-segmentation" controls="" width="18%"> <source id="mp4" src="assets/videos/Mug-segment.mp4" type="video/mp4"> </video>
 <video id="Mug-open_lid" controls="" width="18%"> <source id="mp4" src="assets/videos/Mug-open_lid.mp4" type="video/mp4"> </video>
 <video id="Mug-containment" controls="" width="18%"> <source id="mp4" src="assets/videos/Mug-containment.mp4" type="video/mp4"> </video>
-<video id="Mug-joint_pose" controls="" width="18%"> <source id="mp4" src="assets/videos/Mug-joint_pose.mp4" type="video/mp4"> </video>
+<video id="Mug-joint-pose" controls="" width="18%"> <source id="mp4" src="assets/videos/Mug-joint-pose.mp4" type="video/mp4"> </video>
 <video id="Mug-grasp" controls="" width="18%"> <source id="mp4" src="assets/videos/Mug-grasp.mp4" type="video/mp4"> </video>
 </p>
 <video id="knwoledge-video-1" controls="" width="30%"> <source id="mp4" src="assets/videos/knowledge-1.mp4" type="video/mp4"> </video>
