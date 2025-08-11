@@ -92,9 +92,6 @@ pip install -e .
 
 2. Replace the default tokenizer files with the custom ones from this repository:
 ```bash
-# Navigate to your transformers installation directory
-# Usually located at: site-packages/transformers/models/qwen2_vl/
-
 # Replace these files:
 cp tokenizer/processing_qwen2_5_vl.py /path/to/transformers/src/transformers/models/qwen2_5_vl/processing_qwen2_5_vl.py
 cp tokenizer/tokenizer.py /path/to/transformers/src/transformers/models/qwen2/tokenization_qwen2.py
