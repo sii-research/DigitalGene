@@ -2,6 +2,8 @@
 
 An AI-powered system that analyzes images of objects and generates structured JSON representations of their geometric properties, dimensions, and parameters. This project uses vision-language models (specifically Qwen2.5-VL) to understand object characteristics and output parametric representations suitable for 3D modeling or object analysis.
 
+You can download the model from huggingface **👉 [sii-research/digitalgene](https://huggingface.co/collections/sii-research/digitalgene-686a708500f08227013200ea)**
+
 ## ✨ Features
 
 - **Multi-modal Analysis**: Combines visual understanding with language reasoning to analyze object properties
